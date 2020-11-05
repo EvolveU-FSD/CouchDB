@@ -13,7 +13,7 @@ const getAllDocs = async () =>{
     } catch(ex)
     { console.log('error for all_docs', ex)}
 }
-// getAllDocs() // remember to uncomment me to run 
+getAllDocs() // remember to uncomment me to run 
 
                             // pass in a document name or use the default addADocument
 const addADocument=async(docName='addADocument')=>{
